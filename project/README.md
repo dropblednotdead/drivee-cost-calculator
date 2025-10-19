@@ -75,3 +75,18 @@ cd project/eda_analytics
 запускаем eda_analytics.py
 
 получаем аналитику таблицы train.csv
+
+
+### Структура репозитория
+
+..\CostCalculator\project\frontend - фронтенд
+
+..\CostCalculator\project\backend - бэкенд
+
+..\CostCalculator\project\backend\api\mods, ..\CostCalculator\project\final_tests - ml
+
+..\CostCalculator\project\frontend - аналитика
+
+..\CostCalculator\project\links - материалы
+
+..\CostCalculator\project\data - .csv-файлы
