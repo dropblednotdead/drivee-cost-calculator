@@ -58,7 +58,7 @@ model_files/
 *.model
 *.weights
 data/
-*.csv
+#*.csv
 *.json
 *.parquet
 *.feather
