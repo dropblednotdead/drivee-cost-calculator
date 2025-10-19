@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+  /* outline: 2px solid red !important; */
+}
+.green-gradient {
+  background: linear-gradient(to right, #53b525, #95dd34);
+}
+
+.pin {
+  cursor: pointer;
+  max-width: unset;
+}
