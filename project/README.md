@@ -13,7 +13,7 @@
 
 > Запуск проекта
 
-### Бэкенд
+### Бэкенд (Django, Django REST Framework)
 
 python -m venv venv
 source venv/bin/activate  # (или venv\Scripts\activate на Windows)
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 cd project/backend
 
-создаем пустую sql-таблицу cost_calculator
+создаем пустую sql-базу cost_calculator
 
 python manage.py runserver
 
@@ -39,7 +39,7 @@ POST-запрос вида
         "user_rating": 4.95
 }
 
-### Фронтенд
+### Фронтенд (Vue Yandex Maps, Vue 3, axios, tailwind css, TypeScript, Pinia)
 
 отдельный терминал
 
@@ -50,7 +50,7 @@ npm install
 npm run dev
 
 
-### ML
+### ML (PyTorch, Pandas, NumPy, Scikit-Learn)
 
 cd project/final_tests
 
@@ -68,7 +68,7 @@ python final_run_interference.py
 
 последний файл формирует цены в predictions.csv
 
-### АНАЛИТИКА
+### АНАЛИТИКА (Pandas, Matplotlab, Seaborn)
 
 cd project/eda_analytics
 
@@ -79,14 +79,14 @@ cd project/eda_analytics
 
 ### Структура репозитория
 
-..\CostCalculator\project\frontend - фронтенд
+..\project\frontend - фронтенд
 
-..\CostCalculator\project\backend - бэкенд
+..\project\backend - бэкенд
 
-..\CostCalculator\project\backend\api\mods, ..\CostCalculator\project\final_tests - ml
+..\project\backend\api\mods, ..\CostCalculator\project\final_tests - ml
 
-..\CostCalculator\project\frontend - аналитика
+..\project\frontend - аналитика
 
-..\CostCalculator\project\links - материалы
+..\project\links - материалы
 
-..\CostCalculator\project\data - .csv-файлы
+..\project\data - .csv-файлы
