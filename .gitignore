@@ -1,0 +1,131 @@
+# Django
+*.pyc
+*__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Database
+*.sqlite3
+*.db
+*.mdb
+
+# Django migrations (раскомментируйте если нужно игнорировать миграции)
+# calc_app/migrations/
+
+# Static files
+/staticfiles/
+/mediafiles/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.secrets
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# ML Models and Data (ВАЖНО!)
+model_files/
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.model
+*.weights
+data/
+*.csv
+*.json
+*.parquet
+*.feather
+
+# Logs
+*.log
+logs/
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+
+# Django production
+*.pot
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.coverage*
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+*.DS_Store
+
+# Windows
+[Bb]in/
+[Oo]bj/
+*.user
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation
+docs/_build/
+
+# Backup files
+*.bak
+*.backup
+
+# Docker
+docker-compose.override.yml
+
+# SSL
+*.key
+*.crt
+*.csr
+
+# Heroku
+*.heroku
+
+# ML specific
+checkpoints/
+runs/
+wandb/
+mlruns/
+
+*.png
